@@ -41,6 +41,36 @@ class CypherDescriptor:
     def speed_pool_setter(self, new_speed_pool):
         self.speed_pool_mod = new_speed_pool
 
+    def might_edge_getter(self):
+        return self.might_edge_mod
+
+    def might_edge_setter(self, new_might_edge):
+        self.might_edge_mod = new_might_edge
+
+    def speed_edge_getter(self):
+        return self.speed_edge_mod
+
+    def speed_edge_setter(self, new_speed_edge):
+        self.speed_edge_mod = new_speed_edge
+
+    def intellect_edge_getter(self):
+        return self.intellect_edge_mod
+
+    def intellect_edge_setter(self, new_intellect_edge):
+        self.intellect_edge_mod = new_intellect_edge
+
+    def inabilities_getter(self):
+        return self.inabilities
+
+    def inabilities_setter(self, new_inabilities):
+        self.inabilities = new_inabilities
+
+    def skill_getter(self):
+        return self.skill
+
+    def skill_setter(self, new_skill):
+        self.skill = new_skill
+
 Descriptors = {}
 
 Brash = CypherDescriptor('Brash')
